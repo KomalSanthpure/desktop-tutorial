@@ -1,0 +1,15 @@
+package com.example.snakeladdermarchdemo;
+import javafx.scene.paint.Color;
+import  javafx.scene.shape.Rectangle;
+public class tile extends Rectangle {
+    public  tile(int tileSize)
+    {
+        setWidth(tileSize);
+        setHeight(tileSize);
+
+        setFill(Color.AQUA);
+        setStroke(Color.BLACK);
+
+
+    }
+}
